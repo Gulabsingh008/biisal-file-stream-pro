@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "File_tolink_stream_bot"
-bisal_channel = "https://t.me/Af_cinemas"
+bisal_channel = "https://t.me/Af_cinemax"
 bisal_grp = "https://t.me/+swpuQspBoVxiNjdl"
 
 class Var(object):
