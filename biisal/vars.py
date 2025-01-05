@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "File_tolink_stream_bot"
-bisal_channel = "https://t.me/+OiKmB79YlMJmNTJl"
+bisal_channel = "https://t.me/af_back_up"
 bisal_grp = "https://t.me/+Cuh0VD290xBmODY1"
 
 class Var(object):
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', ''))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', '+OiKmB79YlMJmNTJl')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'af_back_up')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002060579330")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @biisal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
