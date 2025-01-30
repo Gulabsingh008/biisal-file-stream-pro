@@ -64,7 +64,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
     chat_id=m.chat.id,
-    photo="https://graph.org/file/3959ab615a7acda86e47c.jpg",
+    photo="https://envs.sh/aVm.jpg",
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
